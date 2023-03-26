@@ -1,10 +1,13 @@
 {
+  "homepage": "http://anwalker293.github.io/mock-spiral-galaxy",
   "name": "threejs-journey-exercise",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build"
   },
   "devDependencies": {
